@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: rgb(65, 54, 104);
+    background-image: url(./assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-size: 26px;
+    border-radius: 16px;
+    margin: auto;
+    background-color: rgb(244, 241, 255);
+    backdrop-filter: blur(2px);
+    width: 514px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(15, 27, 36, 0.6);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(15, 27, 36, 0.6);
+    box-shadow: 5px 5px 5px -5px rgba(15, 27, 36, 0.6);
+}
+
+.container_name {
+    position: relative;
+    color: #a5608e;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+
+    margin-bottom: 10px;
+}
+
+.plan_container {
+    color: #00000075;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 19.9px;
+    margin-top: 36px;
+}
+
+.plan_container__name {
+    text-align: center;
+}
+
+.plan_task {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text {
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    justify-items: center;
+    margin-top: 2px;
+}
