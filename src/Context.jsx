@@ -1,3 +1,4 @@
 import { createContext } from "react";
 
-export const planContext = createContext()
+export const TasksContext = createContext()
+export const TasksDispatchContext = createContext()

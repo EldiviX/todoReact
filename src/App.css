@@ -16,13 +16,13 @@ body {
     font-size: 26px;
     border-radius: 16px;
     margin: auto;
-    background-color: rgb(244, 241, 255);
+    background-color: rgb(252, 255, 244);
     backdrop-filter: blur(2px);
-    width: 514px;
-    height: 660px;
+    width: 547px;
+    height: 692px;
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    align-items: center;
 
     -webkit-box-shadow: 5px 5px 5px -5px rgba(15, 27, 36, 0.6);
     -moz-box-shadow: 5px 5px 5px -5px rgba(15, 27, 36, 0.6);
@@ -31,16 +31,19 @@ body {
 
 .container_name {
     position: relative;
+    right: 188px;
+    top: 30px;
     color: #a5608e;
     font-family: "Roboto-Regular", Helvetica;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: 0.25px;
-
-    margin-bottom: 10px;
+    
+    margin-bottom: 35px;
 }
 
 .plan_container {
+    width: 100%;
     color: #00000075;
     font-family: "Roboto-Regular", Helvetica;
     font-size: 12px;
@@ -55,16 +58,47 @@ body {
 }
 
 .plan_task {
+    max-width: 490px;
+    white-space: normal;
     display: flex;
-    align-items: center;
+    position: relative;
     color: #000000;
+    margin-top: 3px;
+    text-align: start;
+     margin-left: 22px;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(154, 163, 130, 0);
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(221, 221, 221); 
+    border-radius: 7px; 
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: rgb(247, 247, 247); 
+    border-radius: 7px; 
+}
+
+.content-list {
+    overflow-x: auto;
+    width: 100%;
 }
 
 .text {
+    overflow: hidden;
+    margin-top: 9px;
     font-family: "Roboto-Regular", Helvetica;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    justify-items: center;
-    margin-top: 2px;
+}
+
+.checkbox input {
+    max-width: 38px;
+    max-height: 38px;
+    flex-shrink: 0;
 }
