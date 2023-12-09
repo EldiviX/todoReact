@@ -48,7 +48,7 @@ function App() {
             <TasksContext.Provider value={tasks}>
                 <TasksDispatchContext.Provider value={dispatch}>
                     <Container>
-                        <div className="container_name">TODO</div>
+                        <div className="container_name">Список дел</div>
                         <TextField 
                             variant='standard'
                             size='small'
