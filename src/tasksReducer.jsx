@@ -3,7 +3,7 @@ export default function tasksReducer(tasks, action) {
         case 'added': {
             return [ ...tasks, {
                 id: action.id,
-                text: action.text,
+                text: action.text.trim(),
                 ready: false
             }];
         }

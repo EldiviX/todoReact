@@ -86,7 +86,6 @@ export default function Tasks() {
 function PlannedTask({task}) {
     const dispatch = useContext(TasksDispatchContext)
     const [checkEdit, setCheckEdit] = useState(false);
-    const [taskName, setTaskName] = useState()
     
     function handleCheckboxChange(taskId) {
         dispatch({
