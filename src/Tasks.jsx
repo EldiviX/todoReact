@@ -51,7 +51,7 @@ export default function Tasks() {
                 size='small'   
                 style={{
                     marginLeft: "auto",
-                    maxWidth: "38px", maxHeight: "38px", flexShrink: 0
+                    width: "21px", height: "21px", marginTop: "3px", padding: "17px", flexShrink: 0
                 }} 
             >
                 <DeleteIcon 
@@ -123,12 +123,13 @@ function PlannedTask({task}) {
                     size='small'   
                     style={{
                         marginLeft: "auto",
-                        maxWidth: "38px", maxHeight: "38px", flexShrink: 0
+                        width: "21px", height: "21px", padding: "17px", marginTop: "3px", flexShrink: 0
                     }} 
                 >
                     <EditIcon 
                         style={{
-                            fontSize: "21px", padding: "2px", color: "#a5608e"
+                            fontSize: "21px", padding: "2px", marginTop: "0px", color: "#a5608e",
+                            width: "21px", height: "21px"
                         }}
                     />
                 </IconButton>
@@ -138,7 +139,7 @@ function PlannedTask({task}) {
                     size='small'   
                     style={{
                         marginLeft: "1px",
-                        maxWidth: "38px", maxHeight: "38px", flexShrink: 0
+                        width: "21px", height: "21px", marginTop: "3px", padding: "17px", flexShrink: 0
                     }} 
                 >
                     <DeleteIcon 
